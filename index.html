@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Portfolio 2.0</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/a5cc808ccb.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="pictures/drag_x-logo2.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"  ></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Computer Engineer</p>
+                    <h1>Hi, Im <span>Luke</span><br>Capuras From Philippines</h1>
+                </div>
+            </div>
+        </div>
+<!---------------about---------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="pictures/hp2.JPG">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I’m aiming to gain experience from different types of Jobs in the
+                             Corporate world that is in lined with Computer Engineering, where 
+                             it can improve myself not just as a computer engineer but as a 
+                             professional that will gain lot of experience in the field that is
+                              incorporated with my course.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Automation</span><br>Designing Agricultural Automation - level of proficiency <b>intermediate</b></li>
+                                <li><span>Web Dev</span><br>Designing Website - level of proficiency <b>beginner</b></li>
+                                <li><span>Iot</span><br>Integrating Automation with internet of things - level of proficiency <b>intermediate</b></li>
+                                <li><span>Python</span><br>Creating simple game using python language - level of proficiency <b>beginner</b></li>
+                                <li><span>C language</span><br>Developing Simple Games, Calulators, Grade Coverters, and many more - level of proficiency <b>intermediate</b></li>
+                                <li><span>Assembly language</span><br>Developing Hardware instructions in a processor - level of proficiency <b>intermediate</b></li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022</span><br><b>Automation Engineer</b> at Urban Green Hydroponics System Inc. </li>
+                                <li><span>2021-2022</span><br><b>President</b> of La Salle Araneta Computer Engineering Society - School Organization </li>
+                                <li><span>2020-2021</span><br><b>Public Relation Officer</b> of La Salle Araneta Computer Engineering Society - School Organization</li>
+                                <li><span>2021</span><br> <b>Math tutor </b>- 7th grader</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Bachelor Of Science In Computer Engineering</span><br>BSCpE at La Salle Araneta University in Philippines. A Consistent Deans Lister for 6/10 semesters. President LACES for 3 Semesters </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-----------Services--------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code "></i>
+                        <h2>Web Design</h2>
+                        <p>I Design simple Webpages, Contact me for more info.</p>
+                        <a href="#">Send Me Message!</a>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-file"></i>
+                        <h2>Automation Design</h2>
+                        <p>I Design prototypes for automation from Schematics to Wiring Diagram for a project</p>
+                        <a href="mywork.html">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <h2>Thesis Consultation-Automation</h2>
+                        <p>I give Advices and Comments for Students Who does capstone of Thesis Devices </p>
+                        <a href="#contact">Send Me Message!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!---------------portfolio-------------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="pictures/automation2.png">
+                        <div class="layer">
+                            <h3>INDOOR GARDENING AEROPONICS SYSTEM WITH MOBILE MONITORING</h3>
+                            <p> An IoT Based Aeroponics System that is a Popular innovation that Addresses food security problems during pandemic</p>
+                            <a href="https://dlsaraneta-my.sharepoint.com/:v:/g/personal/kristoffer_capuras_dlsau_edu_ph/EdyF7cjmLxVPpySqLZ5euNsBK9JUMDDcJ487tboBJc5RZA?e=KwLQhu"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="pictures/UGporject.jpg">
+                        <div class="layer">
+                            <h3>SMART WATER VALVE SYSTEM FOR URBAN GREEN HYDROPONIC SYSTEM</h3>
+                            <p>An IoT Based Water Valve System that was used by the Company <b>"Urban Greens"</b> to solve their 2 years problem which is "Removing human error" in their System.</p>
+                            <a href="https://www.verticalfarmdaily.com/article/9470177/philippines-urban-footpint-and-inter-national-aspirations-gains-interest-of-local-and-global-investors/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="pictures/portfolio.png">
+                        <div class="layer">
+                            <h3>First Portfolio</h3>
+                            <p>My First Portfolio website with just HTML and CSS</p>
+                            <a href="https://carma6478.github.io/Portfolio-1.0/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="mywork.html" class="btn">See More</a>
+            </div>
+        </div>
+<!---------------contact-------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> kristoffer.capuras@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> 09391217742</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/luke.capuras/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/luke-capuras-a32b89239/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/Carma6478"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="pictures/KristofferLukeCapuras-Resume.pdf" download class="btn btn2" >Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Enter Your Name" required>
+                            <input type="email" name="Email" placeholder="Enter Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Enter Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Drag_X. All Rights Reserved.</p>
+            </div>
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+
+        </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxngNdps6kLIiV57J_R13F_YV1K90Ti77m1j2EekJG5-Nb02uULoDtAlwtO5WrKlgJJ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+  
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully!"
+                setTimeout(function(){
+                    msg.innerHTML = " "
+                }, 50000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+
+    </body>
+</html>
